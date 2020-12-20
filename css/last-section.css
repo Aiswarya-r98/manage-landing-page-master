@@ -1,0 +1,43 @@
+.last-section-flex {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+  
+.last-section-column {
+    flex: 50%; 
+}
+.heading-rev {
+    font-size: 1.7em;
+    color: white;
+    padding-bottom: 30px;
+}
+.btn-rev {
+    background-color: white;
+    margin: auto;
+    border-radius: 70px;
+    padding: 10px 15px;
+    color: var(--Bright-Red);
+    border: 2px var(--Bright-Red) solid;
+    box-shadow: 0px 7px 15px white;
+   
+}
+
+a.btn-rev, a.btn-rev:hover {
+    text-decoration: none;
+}
+.btn-rev:hover {
+    background-color: var(--Bright-Red);
+    border: 2px white solid;
+    padding: 5px 13px;
+    color: white;
+}
+@media only screen and (max-width: 764px) {
+    .last-section-flex {
+        flex-direction: column;
+    }
+    .last-section-column {
+        flex: 100%;
+    }
+    
+} 
